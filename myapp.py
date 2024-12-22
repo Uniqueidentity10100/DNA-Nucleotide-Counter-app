@@ -5,7 +5,8 @@ from PIL import Image
 
 url = "https://raw.githubusercontent.com/Uniqueidentity10100/DNA-Nucleotide-Counter-app/main/dna-163466_640.webp"
 response = requests.get(url)
-images = Image.open(BytesIO(response.content)st.image(images, use_column_width=True))
+images = Image.open(BytesIO(response.content))
+st.image(images, use_column_width=True)
 st.write("""
 # DNA Nucleotide Count Web App
          
