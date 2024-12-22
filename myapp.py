@@ -3,7 +3,7 @@ import streamlit as st
 import altair as at
 from PIL import Image
 
-images = Image.open('/Users/arunachalamthyagarajan/Desktop/dna-163466_640.webp')
+images = Image.open('https://github.com/Uniqueidentity10100/DNA-Nucleotide-Counter-app/blob/main/dna-163466_640.webp')
 st.image(images, use_column_width=True)
 st.write("""
 # DNA Nucleotide Count Web App
