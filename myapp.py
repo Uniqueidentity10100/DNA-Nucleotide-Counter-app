@@ -1,7 +1,9 @@
+import requests
 import pandas as pd
 import streamlit as st
 import altair as at
 from PIL import Image
+from io import BytesIO
 
 url = "https://raw.githubusercontent.com/Uniqueidentity10100/DNA-Nucleotide-Counter-app/main/dna-163466_640.webp"
 response = requests.get(url)
